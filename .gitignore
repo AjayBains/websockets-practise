@@ -1,0 +1,7 @@
+# Ignore Node modules
+node_modules/
+
+# macOS Finder files
+.DS_Store
+
+
