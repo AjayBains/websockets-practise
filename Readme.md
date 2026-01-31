@@ -1,13 +1,8 @@
-
 # Websockets practise with ws library
 
-## websocketsprotocol 
+## WebSocket protocol
 
-A websocket request looks like a http request with an addition requet header "upgrade":websocket and if succesfull we get a response 101 ,of switching protocols ,and awlays on websocket connection is established.
-![webscocket request headers screenshot captured from the ourapp] (/assets/ws_req_header_sc.png)
+A WebSocket request looks like an HTTP request with an additional request header `Upgrade: websocket`. If successful, the server responds with `101 Switching Protocols`, and a WebSocket connection is established.
+![websocket request headers screenshot captured from our app](assets/ws_req_header_sc.png)
 
-### only send message when websocket is in open state
-
-
-
-
+### Only send messages when the WebSocket is in the OPEN state
